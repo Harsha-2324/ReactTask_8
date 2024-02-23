@@ -52,13 +52,13 @@ const Cart = () => {
   };
 
   const cards = products.map((product) => (
-    <div className="card-container" key={product.id}>
+    <div className="card-container-fluid" key={product.id}>
       <div className="card-products">
         <Card style={{ width: "18rem" }} className="cards">
           <Card.Img
             variant="top"
             src={product.images}
-            style={{ width: "250px", height: "200px" }}
+            // style={{ width: "250px", height: "200px" }}
           />
           <Card.Body>
             <Card.Title>{product.title}</Card.Title>
@@ -75,9 +75,9 @@ const Cart = () => {
               </div>
               <div className="price-total">
                 <Button
-                  variant="primary"
+                  variant="dark"
                   className="increament"
-                  style={{ borderRadius: "50%" }}
+                  style={{ borderRadius: "10%" }}
                   onClick={() => decreaseCount(product.id)}
                 >
                   -
@@ -86,9 +86,9 @@ const Cart = () => {
                   {productCount[product.id] || 1}
                 </Card.Text>
                 <Button
-                  variant="primary"
+                  variant="dark"
                   className="increament"
-                  style={{ borderRadius: "50%" }}
+                  style={{ borderRadius: "10%" }}
                   onClick={() => increaseCount(product.id)}
                 >
                   +
@@ -96,7 +96,7 @@ const Cart = () => {
               </div>
             </div>
             <Button
-              variant="danger"
+              variant="dark"
               className="add mt-2"
               onClick={() => removeProduct(product.id)}
             >
@@ -110,15 +110,15 @@ const Cart = () => {
 
   return (
     <>
-      <div className="text-white">
+      <div className="text-dark">
         <span style={{ fontSize: 30 }}>My Cart</span> <br />
         <span style={{ fontSize: 30 }}>
           Grand Total:<i class="fa fa-inr"></i> {calculateTotalPrice()}
         </span>
         {products.length === 0 && (
-          <div className="NoItems">
+          <div class="NoItems1">
             <img
-              src="https://img.freepik.com/free-photo/funny-illustration-3d-cartoon-backpacker_183364-80424.jpg?w=1380&t=st=1690967265~exp=1690967865~hmac=3a953df10987b13a88915a21662843501208169d499267818c9ff582e45e1ca6://cdni.iconscout.com/illustration/premium/thumb/before-login-no-product-in-cart-4006356-3309942.png"
+              src="/image/cart.png"
               alt="Cart Empty image"
             />
           </div>
