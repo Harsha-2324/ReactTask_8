@@ -1,0 +1,156 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 15ProMax",
+      "price": " $1079",
+      "originalprice": " $1199",
+      "discount": "10% off",
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": ["./image/sm/iPhone_15_ProMax.png"]
+    },
+    {
+      "id": 2,
+      "title": "iPhone 15 Pro",
+      "price": " $699",
+      "discount": "30% off",
+      "originalprice": " $999",
+      "brand": "Apple",
+      "category": "smartphones",
+
+      "images": ["./image/sm/iPhone_15_Pro.png"]
+    },
+    {
+      "id": 3,
+      "title": "iPhone 15 Plus",
+      "price": " $539",
+      "discount": "40% off",
+      "originalprice": " $899",
+      "discountPercentage": 15.46,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": ["./image/sm/iPhone_15_Plus.png"]
+    },
+    {
+      "id": 4,
+      "title": "iPhone 15",
+      "price": " $447",
+      "discount": "44% off",
+      "originalprice": " $799",
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": ["./image/sm/iPhone_15.png"]
+    },
+    {
+      "id": 5,
+      "title": "iPad Pro",
+      "price": " $1044",
+      "discount": "5% off",
+      "originalprice": " $1099",
+      "brand": "Apple",
+      "category": "ipad",
+      "images": ["./image/tv/iPad_Pro.png"]
+    },
+    {
+      "id": 6,
+      "title": "iPad Air",
+      "price": " $491",
+      "discount": "18% off",
+      "originalprice": " $599",
+      "brand": "Apple",
+      "category": "ipad",
+      "images": ["./image/tv/iPad_Air.png"]
+    },
+    {
+      "id": 7,
+      "title": "MacBook Pro",
+      "price": " $2974",
+      "discount": "15% off",
+      "originalprice": " $3499",
+      "brand": "Apple",
+      "category": "laptop",
+      "images": ["./image/tv/MacBook_Pro.png"]
+    },
+    {
+      "id": 8,
+      "title": "MacBook Air",
+      "price": " $974",
+      "discount": "25% off",
+      "originalprice": " $1299",
+      "brand": "Apple",
+      "category": "laptop",
+      "images": ["./image/tv/MacBook_Air.png"]
+    },
+    {
+      "id": 9,
+      "title": "Airpods Pro 2",
+      "price": " $231",
+      "discount": "7% off",
+      "originalprice": " $249",
+      "brand": "Apple",
+      "category": "ear buds",
+      "images": ["./image/sd/Airpods_Pro_2_copy1.png"]
+    },
+    {
+      "id": 10,
+      "title": "Apple Watch S9",
+      "price": " $664",
+      "discount": "5% off",
+      "originalprice": " $699",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "images": ["./image/sd/Apple_Watch.png"]
+    },
+    {
+      "id": 11,
+      "title": "iMac",
+      "price": " $935",
+      "discount": "28% off",
+      "originalprice": " $1299",
+      "brand": "Apple",
+      "category": "desktop",
+      "images": ["./image/sd/iMac.png"]
+    },
+    {
+      "id": 12,
+      "title": "Studio Display",
+      "price": " $1295",
+      "discount": "19% off",
+      "originalprice": " $1599",
+      "brand": "Apple",
+      "category": "desktop",
+      "images": ["./image/sd/Studio_Display_1.png"]
+    },
+    {
+      "id": 13,
+      "title": "HomePod",
+      "price": " $263",
+      "discount": "12% off",
+      "originalprice": " $299",
+      "brand": "Apple",
+      "category": "speaker",
+      "images": ["./image/sd/HomePod_Black.png"]
+    },
+    {
+      "id": 14,
+      "title": "HomePod mini",
+      "price": " $93",
+      "discount": "6% off",
+      "originalprice": " $99",
+      "brand": "Apple",
+      "category": "speaker",
+      "images": ["./image/sd/HomePod_mini_Blue.png"]
+    },
+    {
+      "id": 15,
+      "title": "Mac mini",
+      "price": " $299",
+      "discount": "50% off",
+      "originalprice": " $599",
+      "brand": "Apple",
+      "category": "desktop",
+      "images": ["./image/sd/Mac_mini.png"]
+    }
+  ]
+}
