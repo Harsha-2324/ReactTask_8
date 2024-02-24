@@ -14,7 +14,7 @@
     - [4. Adjust product quantities using the "+" and "-" buttons.](#4-adjust-product-quantities-using-the--and---buttons)
     - [5. Click "Remove from Cart" to remove a product from the cart.](#5-click-remove-from-cart-to-remove-a-product-from-the-cart)
     - [6. Click in the Apple Store or Products on Cart Page to go to the Home Page.](#6-click-in-the-apple-store-or-products-on-cart-page-to-go-to-the-home-page)
-    - [7. Click in the Continue Shopping on the Cart Page to go to the Home Page.](#7-click-in-the-continue-shopping-on-the-cart-page-to-go-to-the-home-page)
+    - [7. Click in the Continue Shopping on the Empty Cart Page to go to the Home Page.](#7-click-in-the-continue-shopping-on-the-empty-cart-page-to-go-to-the-home-page)
   - [Technologies Used](#technologies-used)
  
 ## Netlify Deployed URL
@@ -79,7 +79,7 @@
 ### 6. Click in the Apple Store or Products on Cart Page to go to the Home Page.
  ![image](./public/image/Screenshot%20(165).png)
 
-### 7. Click in the Continue Shopping on the Cart Page to go to the Home Page.
+### 7. Click in the Continue Shopping on the Empty Cart Page to go to the Home Page.
  ![image](./public/image/Screenshot%20(170).png)
 
 ## Technologies Used
