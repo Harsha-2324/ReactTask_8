@@ -81,6 +81,7 @@
 
 ### 7. Click in the Continue Shopping on the Empty Cart Page to go to the Home Page.
  ![image](./public/image/Screenshot%20(170).png)
+ ![image](./public/image/Screenshot%20(161).png)
 
 ## Technologies Used
 
