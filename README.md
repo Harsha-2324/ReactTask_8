@@ -1,58 +1,92 @@
-# Redux Shopping Cart Website
+# Redux Shopping Website with Cart Functions
 
+## Table of Contents
 
-## Overview
+- [Redux Shopping Website with Cart Functions](#redux-shopping-website-with-cart-functions)
+  - [Table of Contents](#table-of-contents)
+  - [Netlify Deployed URL](#netlify-deployed-url)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+  - [Usage with Screenshots](#usage-with-screenshots)
+    - [1. Browse the home page to view available products.](#1-browse-the-home-page-to-view-available-products)
+    - [2. Click "Add to Cart" to add a product to the cart.](#2-click-add-to-cart-to-add-a-product-to-the-cart)
+    - [3. Navigate to the cart page to manage your cart contents.](#3-navigate-to-the-cart-page-to-manage-your-cart-contents)
+    - [4. Adjust product quantities using the "+" and "-" buttons.](#4-adjust-product-quantities-using-the--and---buttons)
+    - [5. Click "Remove from Cart" to remove a product from the cart.](#5-click-remove-from-cart-to-remove-a-product-from-the-cart)
+    - [6. Click in the Apple Store or SHOP Cart Page to go to the Home Page.](#6-click-in-the-apple-store-or-shop-cart-page-to-go-to-the-home-page)
+    - [7. Click in the Continue Shopping on the Cart Page to go to the Home Page.](#7-click-in-the-continue-shopping-on-the-cart-page-to-go-to-the-home-page)
+  - [Technologies Used](#technologies-used)
+ 
+## Netlify Deployed URL
 
-This project is a shopping cart website built with HTML, CSS, React, and Redux. It allows users to browse a list of products, add them to their cart, and manage their cart. This README provides an overview of the project's structure, features, and how to get it up and running.
+🔸*Check out My Redux Shopping Cart  Here*👉🏻 [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://redux-shopping-cart-react-task-8.netlify.app/)
 
 ## Features
 
-- **Product Listing:** Display a list of products with details like title, price, and an option to add them to the cart.
-
-- **Shopping Cart:** Maintain a shopping cart where users can add and remove products.
-
-- **Total Price Calculation:** Calculate and display the total price of products in the cart.
-
-- **Responsive Design:** The website is responsive, ensuring a good user experience on different devices.
-
-- **Navigation:** Easily switch between the product listing and the shopping cart using the navigation menu.
-
-- **GitHub Links:** Links to the project creator's GitHub and LinkedIn profiles.
-
-## Demo
-
-Check out the live demo of the project [here](https://redux-shopping-cart-guvi-task.netlify.app).
-
-## Screenshots
-
-Include a few screenshots of your website in this section to give users a visual impression of your project.
+- Product display with details and images.
+- Cart functionality: add and remove products, adjust quantities.
+- Navigation between home and cart pages.
+- Total price calculation based on cart contents.
 
 ## Getting Started
 
-### Prerequisites
+1. **Clone the repository:**
 
-- Node.js and npm should be installed on your system.
+   ```bash
+   git clone https://github.com/Harsha-2324/ReactTask_8.git
 
-### Installation
+   ```
 
-1. Clone the repository: `git clone https://github.com/Harsha2324/react-redux-task.git`
-2. Change to the project directory: `cd react-redux-task`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your web browser and visit `http://localhost:3000` to see the project locally.
+2. **Install dependencies:**
 
-## Usage
+   ```bash
+   cd ReactTask_8
+   npm install 
+   npm install react-router-dom
+   npm install axios
+   npm install --save phosphor-react
 
-- Navigate to the website and start exploring products.
-- Add items to your shopping cart.
-- Visit the cart page to review and manage your cart.
+   ```
 
-## Contributing
+3. **Start the development server:**
 
-If you'd like to contribute to this project, please follow these steps:
+   ```bash
+   npm run dev
+   
+   ```
 
-1. Fork the repository.
-2. Create a new branch for your feature or fix: `git checkout -b feature-name`
-3. Make your changes and commit them.
-4. Push to your fork: `git push origin feature-name`
-5. Create a pull request to the main repository.
+4. **Open your browser and navigate to** http://localhost:3000 **to view the app.**
+
+## Usage with Screenshots
+
+### 1. Browse the home page to view available products.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(135).png)
+
+### 2. Click "Add to Cart" to add a product to the cart.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(136).png)
+ ![image](./public/image/Output_Screenshot/Screenshot%20(137).png)
+ ![image](./public/image/Output_Screenshot/Screenshot%20(138).png)
+ ![image](./public/image/Output_Screenshot/Screenshot%20(139).png)
+
+### 3. Navigate to the cart page to manage your cart contents.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(140).png)
+ 
+### 4. Adjust product quantities using the "+" and "-" buttons.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(140).png)
+  
+### 5. Click "Remove from Cart" to remove a product from the cart.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(141).png)
+  
+### 6. Click in the Apple Store or SHOP Cart Page to go to the Home Page.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(135).png)
+
+### 7. Click in the Continue Shopping on the Cart Page to go to the Home Page.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(135).png)
+
+## Technologies Used
+
+- React
+- React Router
+- Redux API for state management
+- HTML/CSS
+- Bootstrap for styling
