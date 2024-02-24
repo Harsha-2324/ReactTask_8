@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { remove } from "../store/cartSlice";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -97,7 +98,7 @@ const Cart = () => {
             </div>
             <Button
               variant="dark"
-              className="add mt-2"
+              className="add mt-1"
               onClick={() => removeProduct(product.id)}
             >
               Remove Item
@@ -117,10 +118,16 @@ const Cart = () => {
         </span>
         {products.length === 0 && (
           <div class="NoItems1">
-            <img
-              src="/image/cart.png"
-              alt="Cart Empty image"
-            />
+            
+            <img src="/image/cart.png" alt="Cart Empty image" />
+            <p class="text-secondary fs-3 my-5">Shopping Cart is Empty</p>
+            <button class="btn1">
+              {" "}
+              <Link className="text-white" to="/">
+                Continue Shopping
+              </Link>
+            </button>
+            <button className="text-white my-4 "class="btn1"> Checkout</button>
           </div>
         )}
         <div className="card-products mb-4">{cards}</div>

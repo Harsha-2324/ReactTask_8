@@ -12,7 +12,11 @@ const NavBar = () => {
     <Navbar expand="lg" className="NavB fixed-header">
       <Container fluid>
         <Navbar.Brand as={Link} to="/" className="text-white font-weight-bold"> 
-          <span className="shopping">Shopping Cart</span>
+          <img
+              src="/image/Apple_Store_Logo.png"
+              alt="icon"
+              style={{ width: "150px" }}
+            />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" className="bg-light" />
         <Navbar.Collapse className="justify-content-end">
@@ -28,8 +32,11 @@ const NavBar = () => {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        
       </Container>
+      
     </Navbar>
+    
   );
 };
 
